@@ -1,8 +1,8 @@
 import numpy as np
 
 INPUT_DIM = 4
-OUT_DIM = 3
-H_DIM = 10
+OUT_DIM = 102
+H_DIM = 300
 
 x = np.array()
 
