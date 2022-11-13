@@ -30,5 +30,5 @@ def predict(x):
 
 probs = predict(x)
 pred_class = np.argmax(probs)
-class_names = ['Setosa', 'Versicolor', 'Virginica']
+class_names = [1::102]
 print('Predicted class:', class_names[pred_class])
